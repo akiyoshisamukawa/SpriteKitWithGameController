@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D813D06B18C8493E0049E33A /* icon_search.png in Resources */ = {isa = PBXBuildFile; fileRef = D813D06918C8493E0049E33A /* icon_search.png */; };
+		D813D06C18C8493E0049E33A /* icon_close.png in Resources */ = {isa = PBXBuildFile; fileRef = D813D06A18C8493E0049E33A /* icon_close.png */; };
 		D895832818C6C83600FA3D2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D895832718C6C83600FA3D2E /* Foundation.framework */; };
 		D895832A18C6C83600FA3D2E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D895832918C6C83600FA3D2E /* CoreGraphics.framework */; };
 		D895832C18C6C83600FA3D2E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D895832B18C6C83600FA3D2E /* UIKit.framework */; };
@@ -17,13 +19,13 @@
 		D895833D18C6C83600FA3D2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D895833B18C6C83600FA3D2E /* Main.storyboard */; };
 		D895834018C6C83600FA3D2E /* ASViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D895833F18C6C83600FA3D2E /* ASViewController.m */; };
 		D895834318C6C83600FA3D2E /* ASMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D895834218C6C83600FA3D2E /* ASMyScene.m */; };
-		D895834518C6C83600FA3D2E /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = D895834418C6C83600FA3D2E /* Spaceship.png */; };
 		D895834718C6C83600FA3D2E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D895834618C6C83600FA3D2E /* Images.xcassets */; };
 		D895834E18C6C83600FA3D2E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D895834D18C6C83600FA3D2E /* XCTest.framework */; };
 		D895834F18C6C83600FA3D2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D895832718C6C83600FA3D2E /* Foundation.framework */; };
 		D895835018C6C83600FA3D2E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D895832B18C6C83600FA3D2E /* UIKit.framework */; };
 		D895835818C6C83600FA3D2E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D895835618C6C83600FA3D2E /* InfoPlist.strings */; };
 		D895835A18C6C83600FA3D2E /* SpriteKitWithGameControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D895835918C6C83600FA3D2E /* SpriteKitWithGameControllerTests.m */; };
+		D895836418C6C84800FA3D2E /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D895836318C6C84800FA3D2E /* GameController.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D813D06918C8493E0049E33A /* icon_search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_search.png; sourceTree = "<group>"; };
+		D813D06A18C8493E0049E33A /* icon_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_close.png; sourceTree = "<group>"; };
 		D895832418C6C83600FA3D2E /* SpriteKitWithGameController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteKitWithGameController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D895832718C6C83600FA3D2E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D895832918C6C83600FA3D2E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,13 +57,13 @@
 		D895833F18C6C83600FA3D2E /* ASViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASViewController.m; sourceTree = "<group>"; };
 		D895834118C6C83600FA3D2E /* ASMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASMyScene.h; sourceTree = "<group>"; };
 		D895834218C6C83600FA3D2E /* ASMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASMyScene.m; sourceTree = "<group>"; };
-		D895834418C6C83600FA3D2E /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		D895834618C6C83600FA3D2E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D895834C18C6C83600FA3D2E /* SpriteKitWithGameControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteKitWithGameControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D895834D18C6C83600FA3D2E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D895835518C6C83600FA3D2E /* SpriteKitWithGameControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpriteKitWithGameControllerTests-Info.plist"; sourceTree = "<group>"; };
 		D895835718C6C83600FA3D2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D895835918C6C83600FA3D2E /* SpriteKitWithGameControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpriteKitWithGameControllerTests.m; sourceTree = "<group>"; };
+		D895836318C6C84800FA3D2E /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D895836418C6C84800FA3D2E /* GameController.framework in Frameworks */,
 				D895832A18C6C83600FA3D2E /* CoreGraphics.framework in Frameworks */,
 				D895832C18C6C83600FA3D2E /* UIKit.framework in Frameworks */,
 				D895832E18C6C83600FA3D2E /* SpriteKit.framework in Frameworks */,
@@ -109,6 +114,7 @@
 		D895832618C6C83600FA3D2E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D895836318C6C84800FA3D2E /* GameController.framework */,
 				D895832718C6C83600FA3D2E /* Foundation.framework */,
 				D895832918C6C83600FA3D2E /* CoreGraphics.framework */,
 				D895832B18C6C83600FA3D2E /* UIKit.framework */,
@@ -128,7 +134,8 @@
 				D895833F18C6C83600FA3D2E /* ASViewController.m */,
 				D895834118C6C83600FA3D2E /* ASMyScene.h */,
 				D895834218C6C83600FA3D2E /* ASMyScene.m */,
-				D895834418C6C83600FA3D2E /* Spaceship.png */,
+				D813D06918C8493E0049E33A /* icon_search.png */,
+				D813D06A18C8493E0049E33A /* icon_close.png */,
 				D895834618C6C83600FA3D2E /* Images.xcassets */,
 				D895833018C6C83600FA3D2E /* Supporting Files */,
 			);
@@ -241,10 +248,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D813D06B18C8493E0049E33A /* icon_search.png in Resources */,
 				D895833418C6C83600FA3D2E /* InfoPlist.strings in Resources */,
 				D895834718C6C83600FA3D2E /* Images.xcassets in Resources */,
-				D895834518C6C83600FA3D2E /* Spaceship.png in Resources */,
 				D895833D18C6C83600FA3D2E /* Main.storyboard in Resources */,
+				D813D06C18C8493E0049E33A /* icon_close.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,6 +485,7 @@
 				D895835F18C6C83600FA3D2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D895836018C6C83600FA3D2E /* Build configuration list for PBXNativeTarget "SpriteKitWithGameControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +494,7 @@
 				D895836218C6C83600FA3D2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,9 @@
 //
 
 #import <SpriteKit/SpriteKit.h>
+#import <GameController/GameController.h>
 
 @interface ASMyScene : SKScene
-
+@property (nonatomic) GCGamepad *gamepad;
+@property (nonatomic, retain) SKLabelNode *myLabel;
 @end
